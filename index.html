@@ -54,6 +54,29 @@
             color: #fff;
         }
 
+        .social {
+            margin-top: 30px;
+        }
+
+        .social a {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: #fff;
+            color: #764ba2;
+            border-radius: 50%;
+            font-size: 24px;
+            line-height: 50px;
+            text-align: center;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+
+        .social a:hover {
+            background: #764ba2;
+            color: #fff;
+        }
+
         @keyframes fadeIn {
             from { opacity: 0; transform: scale(0.9); }
             to { opacity: 1; transform: scale(1); }
@@ -61,19 +84,15 @@
     </style>
 </head>
 <body>
-
     <div class="container">
-    <h1>Bienvenido a mi página</h1>
-    <a href="https://damrcp.github.io/juego/" class="boton">Ir al Juego</a>
-    <a href="https://damrcp.github.io/info/" class="boton">Ir a Info</a>
+        <h1>Bienvenido a mi página</h1>
+        <a href="https://damrcp.github.io/juego/" class="boton">Ir al Juego</a>
+        <a href="https://damrcp.github.io/info/" class="boton">Ir a Info</a>
 
-    <!-- Logo de Instagram -->
-    <div style="margin-top: 30px;">
-        <a href="#" class="boton" style="padding: 10px 15px; border-radius: 50%;">
-            📸
-        </a>
+        <!-- Logo de Instagram -->
+        <div class="social">
+            <a href="#" title="Instagram">📸</a>
+        </div>
     </div>
-</div>
-
 </body>
 </html>
